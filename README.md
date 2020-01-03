@@ -11,6 +11,7 @@ a User can:
 ![Alt Text](https://media.giphy.com/media/Qu7rEO0EHnF00d460d/giphy.gif)
 
 ---Features----
+
 Authentication
 - Session is authenticated in the backend. All data corresponds to the proper user.
 
