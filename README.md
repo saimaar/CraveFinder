@@ -19,7 +19,8 @@ Validation
 - Limits User and validates data before saving to database
 
 Languages, Frameworks, Libraries, Etc.
-Ruby on Rails
-SQLite
-Gems
-BCrypt
+
+- Ruby on Rails
+- SQLite
+- Gems
+- BCrypt
