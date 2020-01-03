@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CraveFinder
+--------
+CraveFinder is a Yelp inspired web application created by Saima Rahman. It has similar but simple features where
+a User can:
+- Sign-up, Log-in, Log-out
+- create, update, delete a profile.
+- create, update delete a review for a restaurant
+- create, a restaurant
+- Visit another, User's profile
+- search restaurant by category and location
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Alt Text](https://media.giphy.com/media/Qu7rEO0EHnF00d460d/giphy.gif)
