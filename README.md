@@ -1,12 +1,12 @@
 
 CraveFinder is a Yelp inspired web application created by Saima Rahman. It has similar but simple features where
-a User can:
+Users can:
 - Sign-up, Log-in, Log-out
 - create, update, delete a profile.
-- create, update delete a review for a restaurant
-- create, a restaurant
+- create, update delete a Review for a Restaurant
+- create, Restaurant
 - Visit another, User's profile
-- search restaurant by category and location
+- search Restaurant by Category and Location
 
 ![Alt Text](https://media.giphy.com/media/Qu7rEO0EHnF00d460d/giphy.gif)
 
