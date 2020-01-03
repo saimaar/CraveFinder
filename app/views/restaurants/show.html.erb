@@ -1,6 +1,6 @@
 
 <main>
-<h2 class="rev-title">Hey <%=link_to current_user.name.capitalize, user_path(current_user)%>!</h2><br>
+<h2 class="rev-title">Hey <%=link_to current_user.name, user_path(current_user)%>!</h2><br>
 <p><%= button_to "Review this restaurant", new_restaurant_review_path(@restaurant), :method => :get, :class => "button is-info is-small" %></p>
 
 
@@ -10,6 +10,12 @@
     <div class="desc">
       <h2 class="rev-title"><i class="fas fa-utensils"></i>
       <%= @restaurant.name%></h2></div>
+
+      <div class="desc">
+        <h2 class="rev-title"><i class="fas fa-dot-circle"></i>
+        <%= @restaurant.category.name%></h2></div>
+
+
     <div class="desc">
       <h2 class="rev-title"><i class="fas fa-phone"></i>
       <%= @restaurant.contact%></h2>
@@ -25,7 +31,7 @@
   <section >
     <div class="review-card">
       <div class="review-container"
-        <p> <h2 class="rev-title"><%= link_to review.user.name.capitalize, user_path(review.user)%></h2> </p>
+        <p> <h2 class="rev-title"><i class="fas fa-user"></i><%= link_to review.user.name, user_path(review.user)%></h2> </p>
         <p> <h3 class="rev-subtitle"><i class="fas fa-star"></i>  <%= review.rating%> </h3> </p>
         <p> <h3 class="rev-subtitle"><i class="fas fa-comments"></i> <%= review.comment.capitalize%></h3> </p>
       </div>

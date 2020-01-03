@@ -36,7 +36,9 @@ Bio:</p>
           <div class="review-card">
             <div class="review-container">
 
-              <p><h2 class= "rev-title"><%= link_to user_rev.restaurant.name, restaurant_path(user_rev.restaurant) %></h2>
+              <p><h2 class= "rev-title"><i class="fas fa-utensils"></i>
+
+<%= link_to user_rev.restaurant.name, restaurant_path(user_rev.restaurant) %></h2>
               <p><h2 class= "rev-subtitle">   <i class="fas fa-star"></i> <%= user_rev.rating %></h2></p>
               <p class= "rev-subtitle">   <i class="fas fa-comments"></i> <%= user_rev.comment%></p>
               <% if current_user == @user %>

@@ -6,7 +6,7 @@
         <div class="container-form">
           <div class="border-form">
           <h2 class="title">Restaurant Form</h2>
-            <p><%= form_for @restaurant ,url:"border.png" do |f| %></p>
+            <p><%= form_for @restaurant do |f| %></p>
 
             <p><%= f.label :name %></p>
             <p><%= f.text_field :name%></p>
