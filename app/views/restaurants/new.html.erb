@@ -1,0 +1,41 @@
+
+
+
+      <section>
+
+        <div class="container-form">
+          <div class="border-form">
+          <h2 class="title">Restaurant Form</h2>
+            <p><%= form_for @restaurant ,url:"border.png" do |f| %></p>
+
+            <p><%= f.label :name %></p>
+            <p><%= f.text_field :name%></p>
+
+            <p><%= f.label :contact %></p>
+            <p><%= f.text_field :contact%></p>
+
+            <p><%= f.label :email %></p>
+            <p><%= f.text_field :email, :class => "new-todo", :placeholder => "Restaurant email" %></p>
+
+            <p><%= f.label :image %></p>
+            <p><%= f.text_field :image, size: '10x12'%></p><br>
+
+              <div class="select is-warning is-small">
+            <p><%= f.collection_select :category_id, Category.all, :id, :name%></p>
+              </div>
+                <div class="select is-warning is-small">
+            <p><%= f.collection_select :location_id, Location.all, :id, :name%></p>
+                </div>
+            <p><%= f.submit %></p>
+
+            <%end%>
+            <%if @errors %>
+            <ul>
+              <% @errors.each do |error| %>
+               <li><%= error%></li>
+               <%end%>
+               </ul>
+               <%end%>
+            </div>
+            </div>
+            </section>

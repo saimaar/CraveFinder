@@ -1,0 +1,41 @@
+
+<main>
+<h2 class="rev-title">Hey <%=link_to current_user.name.capitalize, user_path(current_user)%>!</h2><br>
+<p><%= button_to "Review this restaurant", new_restaurant_review_path(@restaurant), :method => :get, :class => "button is-info is-small" %></p>
+
+
+<div class="responsive">
+  <div class="gallery">
+      <%= image_tag(@restaurant.image, :alt => @restaurant.name, width: '400px', height: "400") %>
+    <div class="desc">
+      <h2 class="rev-title"><i class="fas fa-utensils"></i>
+      <%= @restaurant.name%></h2></div>
+    <div class="desc">
+      <h2 class="rev-title"><i class="fas fa-phone"></i>
+      <%= @restaurant.contact%></h2>
+    </div>
+    <div class="desc">
+      <h2 class="rev-title"><i class="fas fa-envelope"></i>
+      <%= @restaurant.email%></h2></div>
+  </div>
+</div>
+
+
+<%@restaurant.reviews.each do |review|%>
+  <section >
+    <div class="review-card">
+      <div class="review-container"
+        <p> <h2 class="rev-title"><%= link_to review.user.name.capitalize, user_path(review.user)%></h2> </p>
+        <p> <h3 class="rev-subtitle"><i class="fas fa-star"></i>  <%= review.rating%> </h3> </p>
+        <p> <h3 class="rev-subtitle"><i class="fas fa-comments"></i> <%= review.comment.capitalize%></h3> </p>
+      </div>
+    </div>
+  </section>
+<%end%>
+
+
+
+
+  <p><%= button_to "edit restaurant", edit_restaurant_path(@restaurant), :method => :get %></p>
+  <p><%= button_to "delete", restaurant_path(@restaurant), :method => :delete %></p>
+</main>

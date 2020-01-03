@@ -1,0 +1,13 @@
+<section>
+<div class="container-form">
+    <h1>Review this restaurant!</h1>
+    <p><%= form_for [@restaurant, @review] do |f| %></p>
+    <p><%= f.label :rating %></p>
+    <p><%= f.number_field :rating%></p>
+    <p><%= f.label :comment %></p>
+    <p><%= f.text_area :comment, :placeholder => "Enter your comment here!" %></p>
+    <p><%= f.submit %></p>
+
+    <%end%>
+<div>
+</section>

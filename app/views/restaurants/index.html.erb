@@ -1,0 +1,25 @@
+
+
+<% if current_user %>
+    <h3 class="rev-title">You are logged in as:</h3>
+    <%=link_to current_user.name.capitalize, user_path(current_user), class: "rev-title"%>
+<%end%>
+
+<div class= "search-bar">
+  <%= form_tag search_restaurants_path, method: :get do |f| %>
+    <%= select_tag :location, options_for_select(Location.all.map{|l| [l.name, l.id]}), class: "search-content" %>
+    <%= select_tag :category, options_for_select(Category.all.map{|c| [c.name, c.id]}), class: "search-content"%>
+    <%= submit_tag 'Search', class: "search-content" %> <i class="fas fa-search"></i>
+  <%end%>
+</div>
+  <br>
+  <div class="container">
+    <% @restaurants.each do |restaurant| %>
+      <div class="picturediv">
+        <p class="text"> <%= restaurant.name%> </p>
+        <div class = 'picture_rest' >
+          <%= link_to image_tag(restaurant.image, url:"border.png", style:"height: 200px; width: 400px" ), restaurant_path(restaurant), class: 'the_pic'%>
+        </div>
+      </div>
+    <%end%>
+  </div>

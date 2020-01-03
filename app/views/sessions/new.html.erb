@@ -1,0 +1,11 @@
+
+<div class="container-form">
+    <h2 class= "label">Log in!</h2>
+    <p><%= form_tag login_path do %></p>
+    <p class= "label"> Email </p>
+    <p><%= text_field_tag :email, "", :placeholder => "Login with your email"%></p>
+    <p class= "label"> Password </p>
+    <p><%= text_field_tag :password, "", :placeholder => "Login with your password"%></p>
+    <p> <input class="form_submit" name="commit" type="submit" /></p>
+    <%end%>
+</div>

@@ -1,0 +1,21 @@
+
+<section>
+  <h2 class= "rev-title">Hey <%= current_user.name.capitalize %>!</h2>
+  <div class="container-form">
+
+  <h2 class="title">Edit Restaurant</h2>
+    <p><%= form_for @user do |f| %></p>
+    <p><%= f.label :bio %></p>
+    <p><%= f.text_area :bio, size: "30x10"%></p>
+    <p><%= f.label :picture %></p>
+    <p><%= f.text_field :picture%></p>
+    <p><%= f.label :password %></p>
+    <p><%= f.password_field :password%></p>
+    <p><%= f.label :password_confirmation %></p>
+    <p><%= f.password_field :password_confirmation%></p>
+    <p><%= f.submit "Submit", :class => "btn btn-outline-dark" %><p>
+
+    <%end%>
+</div>
+
+</section>

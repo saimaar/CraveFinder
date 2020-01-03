@@ -1,0 +1,13 @@
+<section>
+<div class="container-form">
+    <h2>Update this Review</h2>
+    <p><%= form_for @review do |f| %></p>
+    <p><%= f.label :rating %></p>
+    <p><%= f.number_field :rating%></p>
+    <p><%= f.label :comment %></p>
+    <p><%= f.text_area :comment, :placeholder => "Enter your comment here!s", size: "30x10"%></p>
+    <p><%= f.submit %></p>
+
+    <%end%>
+</div>
+</section>

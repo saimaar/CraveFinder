@@ -1,0 +1,63 @@
+// Place all the styles related to the Restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// .field_with_errors input [type = "text"]{
+//   border: 1px solid red;
+// }
+
+/* New from for Restaurant*/
+
+.restaurant-form {
+  // text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+// Restaurant Show page //
+div.gallery {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+}
+
+// div.gallery:hover {
+//   border: 1px solid #777;
+// }
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+
+}
+
+.responsive {
+  position: relative;
+  padding: 0 6px;
+  width: 45.99999%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.border-form {
+  padding: 20px;
+
+}
+
+.text-p{
+margin-left: -22%;
+  text-indent: inherit !important;
+  font-size: 25px  !important;
+  color: rgb(255, 140, 0)  !important;
+  font-family: 'Satisfy', cursive  !important;
+}

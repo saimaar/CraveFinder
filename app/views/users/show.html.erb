@@ -1,0 +1,52 @@
+
+
+<div class ="profile-name">
+  <p class= "text-subtitle"> Profile Page of <span style= 'color: orange;'><%=@user.name%> </span></p></h2>
+  <div class = 'delete_buttons'>
+  <% if current_user.id == @user.id %>
+    <div class= "ed-button">
+      <%= button_to "Edit Profile", edit_user_path(current_user), :method => :get, class: "button is-link is-small" %>
+      <%= button_to "Delete your account", user_path(current_user), :method => :delete, class: "button is-info is-small" %>
+    </div>
+  <%end%>
+  </div>
+
+
+</div>
+
+
+<section class= "profile-card">
+  <div class="left">
+<%= image_tag(@user.picture, :alt => @user.name, width: '350px', height: "350", class: "image" )%>
+</div>
+  <div class="right">
+  <p class= "text-title"><i class="fas fa-envelope"></i>Email:</p>
+      <p class="text-subtitle"> <%=@user.email%></p>
+  <p class= "text-title"><i class="fas fa-user"></i>
+
+Bio:</p>
+    <p class="text-subtitle"><%=@user.bio%></p>
+  </div>
+</section>
+
+  <% if !@user_reviews.empty?%>
+
+      <% @user_reviews.each do |user_rev| %>
+        <section >
+          <div class="review-card">
+            <div class="review-container">
+
+              <p><h2 class= "rev-title"><%= link_to user_rev.restaurant.name, restaurant_path(user_rev.restaurant) %></h2>
+              <p><h2 class= "rev-subtitle">   <i class="fas fa-star"></i> <%= user_rev.rating %></h2></p>
+              <p class= "rev-subtitle">   <i class="fas fa-comments"></i> <%= user_rev.comment%></p>
+              <% if current_user == @user %>
+                <div class="buttons">
+                    <p><%= button_to "update review", edit_review_path(user_rev), :method => :get, class:"button is-link is-light is-small" %></p>
+                    <p><%= button_to "delete review", review_path(user_rev), :method => :delete, class:"button is-link is-light is-small"%></p>
+                </div>
+              <%end%>
+            </div>
+          </div>
+        </section>
+      <%end%>
+  <%end%>
