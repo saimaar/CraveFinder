@@ -24,3 +24,6 @@ Languages, Frameworks, Libraries, Etc.
 - SQLite
 - Gems
 - BCrypt
+
+This code can be rub using "Rails s" on terminal  
+Listening on http://localhost:3000/
