@@ -1,3 +1,4 @@
+##CraveFinder
 
 CraveFinder is a Yelp inspired web application created by Saima Rahman. It has similar but simple features where
 Users can:
