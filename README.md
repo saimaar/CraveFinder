@@ -1,6 +1,6 @@
 <h1 align="center">CraveFinder :pizza: :hamburger:</h1>
 
-<p align="center">CraveFinder is a Yelp inspired web application created by Saima Rahman</p>
+<h4 align="center">CraveFinder is a Yelp inspired web application created by Saima Rahman.</h4>
   
   
   
