@@ -1,11 +1,11 @@
 <h1 align="center">CraveFinder :pizza: :hamburger:</h1>
 
-<<<<<<< HEAD
-CraveFinder
---------
-=======
->>>>>>> 5e32a215ff096c152144540be06f4b8ff4af0d72
-CraveFinder is a Yelp inspired web application created by Saima Rahman. It has similar but simple features where
+<p align="center">CraveFinder is a Yelp inspired web application created by Saima Rahman</p>
+  
+  
+  
+  
+  It has similar but simple features where
 Users can:
 - Sign-up, Log-in, Log-out
 - create, update, delete a profile.
