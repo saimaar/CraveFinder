@@ -42,3 +42,13 @@ This web app makes use of the following:
   <img max-height: 90% width="100%" src="1.png" alt="screenshot of Signup Page">
 </p>
 
+### Profile Page 
+<p align="center">
+  <img max-height: 90% width="100%" src="3.png" alt="screenshot of Signup Page">
+</p>
+
+### Restaurant Show/Review Page
+<p align="center">
+  <img max-height: 90% width="100%" src="2.png" alt="screenshot of Signup Page">
+</p>
+
