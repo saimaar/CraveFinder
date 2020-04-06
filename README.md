@@ -34,3 +34,11 @@ This web app makes use of the following:
 - run `rails db:migrate` to create tables into the database.
 - run `rails db:seed` to create seed data.
 - run `rails s` to run the server. 
+
+## Screenshots
+
+### Signup Page
+<p align="center">
+  <img max-height: 90% width="100%" src="1.png" alt="screenshot of Signup Page">
+</p>
+
