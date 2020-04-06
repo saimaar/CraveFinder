@@ -25,7 +25,7 @@ This web app makes use of the following:
 - SQLite3 [~> 1.4] - Database
 - Bulma-Rails [~> 0.8.0] - Integrates Bulma with the rails asset pipeline, a modern CSS framework based on Flexbox.
 - BCrypt [~> 3.1.7] - Gem for encryption
-
+- ERB templating - Use 
 ## Installation
 
 - Clone this repo to your local machine `git clone <this-repo-url>`
