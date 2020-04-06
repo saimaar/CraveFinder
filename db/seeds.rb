@@ -99,12 +99,6 @@ Restaurant.create(name: "BURGERS by Honest Chops",
     location: Location.third )
 
 
-Restaurant.create(name: "SkyIce Thai Food & Ice Cream",
-      image:"http://www.hvmag.com/Where-to-Get-the-Best-Thai-Food-in-the-Hudson-Valley/Fotolia_199459052_Subscription_Monthly_M.jpg",
-      contact: "(888) 347-2747",
-      email: "skyice@gmail.com",
-      category: Category.first,
-      location: Location.second)
 
 Restaurant.create(name: "One Thai Chef",
       image:"https://secure.i.telegraph.co.uk/multimedia/archive/03055/tom-yum_3055855b.jpg",
