@@ -1,4 +1,4 @@
-## CraveFinder
+<h1 align="center">CraveFinder :pizza: :hamburger:</h1>
 
 <<<<<<< HEAD
 CraveFinder
