@@ -19,12 +19,18 @@ Users can:
   - Validates data before saving to database
   
 ## Tech Stack
+This web app makes use of the following:
+- Ruby [2.6.1]
+- Rails [~> 6.0.2] - MVC Web Framework
+- SQLite3 [~> 1.4] - Database
+- Bulma-Rails [~> 0.8.0] - Integrates Bulma with the rails asset pipeline, a modern CSS framework based on Flexbox.
+- BCrypt [~> 3.1.7] - Gem for encryption
 
-- Ruby on Rails
-- SQLite
-- Gems
-- BCrypt
+## Installation
 
-This code can be rub using "Rails s" on terminal  
-Listening on http://localhost:3000/
->>>>>>> 5e32a215ff096c152144540be06f4b8ff4af0d72
+- Clone this repo to your local machine `git clone <this-repo-url>`
+- run `bundle install` to install required dependencies
+- run `rails db:create` to create a database locally.
+- run `rails db:migrate` to create tables into the database.
+- run `rails db:seed` to create seed data.
+- run `rails s` to run the server. 
