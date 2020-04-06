@@ -1,6 +1,6 @@
 <h1 align="center">CraveFinder :pizza: :hamburger:</h1>
 
-<h4 align="center">CraveFinder is a Yelp inspired web application created by Saima Rahman. This App is built using Ruby on Rails for both frontend and backend</h4>
+<h4 align="center">CraveFinder is a Yelp inspired web application created by Saima Rahman. This App is built using <code>Ruby on Rails</code> for both frontend and backend</h4>
 <p align="center">
   <img max-height: 90% width="100%" src="crave.gif" alt="gif of the app">
 </p>
