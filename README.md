@@ -5,25 +5,14 @@
   <img max-height: 90% width="100%" src="crave.gif" alt="gif of the app">
 </p>
   
-  
-  
-  It has similar but simple features where
+ ## Features 
 Users can:
-- Sign-up, Log-in, Log-out
-- create, update, delete a profile.
-
-- create, update delete a review for a restaurant
-- create, a restaurant
+- Sign-up/Log-in/Log-out
+- Create, Update, and Delete a profile.
+- Create, Update, and Delete a Review for a Restaurant.
+- Create, a Restaurant
 - Visit another, User's profile
-- search restaurant by category and location
-
-
----Features----
-
-- create, update delete a Review for a Restaurant
-- create, Restaurant
-- Visit another, User's profile
-- search Restaurant by Category and Location
+- Sort/Filter restaurant by Category and Location
 
 
 
