@@ -13,21 +13,12 @@ Users can:
 - Create, a Restaurant
 - Visit another, User's profile
 - Sort/Filter restaurant by Category and Location
-
-
-
-## Features
-
-
-Authentication
-- Session is authenticated in the backend. All data corresponds to the proper user.
-
-Validation
-- Limits User and validates data before saving to database
-
-
-
-
+- Authentication
+  - Session is authenticated in the backend. All data corresponds to the proper user.
+- Validation
+  - Validates data before saving to database
+  
+## Tech Stack
 
 - Ruby on Rails
 - SQLite
