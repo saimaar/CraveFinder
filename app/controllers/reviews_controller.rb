@@ -40,8 +40,6 @@ class ReviewsController < ApplicationController
   end
 end
 
-#
-#
 # <p><%= f.collection_select :restaurant_id, Restaurant.all, :id, :name%></p>
 # <p><%= f.label :user %></p>
 # <p><%= f.collection_select :user_id, User.all, :id, :name%></p>
