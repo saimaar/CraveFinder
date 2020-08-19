@@ -164,3 +164,11 @@ Restaurant.create(name: "Duzan",
           email: "duzan@gmail.com",
           category: Category.fourth,
           location: Location.first)
+
+
+  Restaurant.create(name: "Pa pa Rich",
+                    image:"https://cdn.concreteplayground.com/content/uploads/2018/04/PappaRich-Food-2-e1524085816165-1920x1440.jpg",
+                    contact: "(347) 367-2747",
+                    email: "papa@gmail.com",
+                    category: Category.fourth,
+                    location: Location.first)
