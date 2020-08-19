@@ -179,3 +179,10 @@ Restaurant.create(name: "Duzan",
                         email: "frangos@gmail.com",
                         category: Category.fourth,
                         location: Location.first)
+
+Restaurant.create(name: "Creperie Nyc",
+                      image:"https://images.happycow.net/venues/1024/12/19/hcmp121999_654776.jpeg",
+                      contact: "(347) 367-2747",
+                      email: "creperie@gmail.com",
+                      category: Category.fourth,
+                      location: Location.first)
