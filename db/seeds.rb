@@ -172,3 +172,10 @@ Restaurant.create(name: "Duzan",
                     email: "papa@gmail.com",
                     category: Category.fourth,
                     location: Location.first)
+
+  Restaurant.create(name: "Frangos Peri Peri",
+                        image:"https://d1ralsognjng37.cloudfront.net/e86173da-7519-42bc-a86f-48178e43ba5e.jpeg",
+                        contact: "(347) 367-2747",
+                        email: "frangos@gmail.com",
+                        category: Category.fourth,
+                        location: Location.first)
