@@ -62,14 +62,3 @@ end
     params.require(:restaurant).permit(*args)
   end
 end
-
-#
-# <%= text_field_tag :location, options_for_select(Location.all.map{|l| l.name})%>
-# <%= text_field_tag :category, options_for_select(Category.all.map{|c| c.name})%>
-
-# name
-# image
-# contact
-# email
-# category_id
-# location_id
